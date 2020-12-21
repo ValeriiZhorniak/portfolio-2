@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.loyaut{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+    margin: 10px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list li{
+    margin-right: 10px;
+}
+.list a{
+   text-decoration: none; 
+   color: black;
+}
+.list li:last-child{
+    margin-right: 100px;
+}
+/*header*/
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.first{
+    min-width: 210px;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px;
+    word-wrap: break-word;
+}
+.second{
+    max-width: 210px;
+    background-color: cornflowerblue ;
+    text-align: center;
+    padding: 5px;
+}
+.text{
+    text-align: center;
+    margin: 30px;
+}
+/*main*/
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.photo{
+    width: 100px;
+    border: gray 8px solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content>p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.lorem{
+    font-weight: bold;
+    margin: 4px;
+    font-size: 18px;
+}
+.word{
+    margin: 4px;
+}
+.go{
+    background-color: gray;
+    width: 60px;
+    height: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+.go:hover{
+    background-color: white;
+    color: gray;
+}
+.footer{
+    background-color: forestgreen;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 210px;
+}

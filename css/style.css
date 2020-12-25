@@ -195,3 +195,52 @@ a{
     margin-right: 93px;
 }
 /*service*/
+.about{
+    height: 623px;
+    background-color: #ffc155;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about img{
+    height: 100%;
+}
+.read p:first-child{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    bottom: 25px;
+}
+.read p:nth-child(2){
+    width: 508px;
+    height: 137px;
+    color: white;
+    line-height: 1.7;
+    font-size: 13px;
+}
+.read button{
+    background-color: #ffc155;
+    color: white;
+    border: 1px solid #e7ad48;
+    font-size: 14px;
+    width: 145px;
+    height: 45px;
+    position: relative;
+    top: 55px;
+}
+.read button:hover{
+    background-color:  white;
+    color: #ffc155;
+    border: 1px solid #e7ad48;
+    transition: 0.3s ease;
+}
+.read{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    position: relative;
+    bottom: 25px;
+}
+/*about*/

@@ -410,3 +410,62 @@ a{
     transition: 0.3s ease;
 }
 /*price*/
+.works{
+    height: 858px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.steps p:first-child{
+    font-size: 30px;
+    font-weight: 800;
+}
+.steps p:nth-child(2){
+    font-size: 18px;
+    margin-top: 5px;
+}
+.steps img{
+margin-top: 65px;
+}
+.step{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 50px;
+}
+.step_num{
+    width: 210px;
+    height: 100px;
+    margin: 0 40px;
+}
+.step_num p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.step_num p:nth-child(2){
+    font-size: 13px;
+    line-height: 1.6;
+    margin-top: 19px;
+}
+.steps button{
+    background-color: #ffbb42;
+    color: #fff;
+    border: 1px solid #ffbb42;
+    border-radius: 3px;
+    width: 165px;
+    height: 46px;
+    margin-top: 93px;
+}
+.steps button:hover{
+    background-color: #fff;
+    color: #ffbb42;
+    border: 1px solid #fff;
+    transition: 0.3s ease;
+}
+/*steps*/

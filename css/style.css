@@ -545,3 +545,96 @@ margin-top: 65px;
     bottom: 90px;
 }
 /*client*/
+.news{
+    height: 946px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.map p:first-child{
+    font-size: 30px;
+    color: #394b50;
+    font-weight: 800;
+    margin-top: 150px;
+}
+.map p:nth-child(2){
+    font-size: 16px;
+    color: #394b50;
+    margin-top: 3px;
+}
+.label input{
+    width: 308px;
+    height: 47px;
+    color: #cbcbcb;
+    border: 1px solid #cbcbcb;
+    margin-right: 10px;
+}
+.label input:nth-child(2){
+    width: 387px;
+}  
+.label button{
+    width: 218px;
+    height: 47px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: #ffbb42;
+    border: 1px solid #ffbb42;
+}
+.label button:hover{
+    color: #ffbb42;
+    background-color: #fff;
+    border: 1px solid #fff;
+    transition: 0.3s ease;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label{
+    margin-top: 40px;
+}
+.dotter{
+    width: 1102px;
+    margin: 50px auto 0 auto;
+}
+.disk{
+    background-image: url("../image/map.png");
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 550px;
+    background-position: center;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+.address{
+    background-image: url("../image/Shape 4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 284px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a8b1b4;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.address li:first-child{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.address li a[href^='mailto:']:last-child{
+    color: #ffbb42;
+}
+.address li{
+    line-height: 1.8;
+}
+/*news*/

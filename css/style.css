@@ -22,8 +22,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
-    left: 130px;
     box-sizing: content-box;
 }
 a{
@@ -40,8 +38,8 @@ a{
 }
 .button:hover{
     color: #ffbb42;
-    background:white;
-    border: 1px solid white;
+    background:#fff;
+    border: 1px solid #fff;
     transition: 0.3s ease;
 }
 .navigation li{
@@ -60,13 +58,12 @@ a{
     width: 100%;
 }
 .text{
-    color: white;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 190px;
 }
 #boots{
     font-size: 35px;
@@ -84,33 +81,49 @@ a{
 .request{
     background: #ffbb42;
     border: 1px solid #ffbb42;
-    color: white;
+    color: #fff;
     width: 211px;
     height: 46px;
 }
 .request:hover{
     color: #ffbb42;
-    background:white;
-    border: 1px solid white;
+    background:#fff;
+    border: 1px solid #fff;
     transition: 0.3s ease;
-}
-#name::before{
-    content: '/f007';
 }
 .form{
     background: #709dca;
     width: 100%;
-    
 }
-.peredelat{
+.email{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 35px;
-    margin-left: 170px;
 }
-.peredelat input{
+.email input{
     margin: 5px;
+    border: 1px solid #fff;
+    outline: none; 
+    font-size: 13px;
+}
+.email input:first-child{
+    background-image: url('../image/name.png');   
+    background-repeat: no-repeat; 
+    background-position: 4px;        
+    padding-left: 20px;
+}
+.email input:nth-child(2){
+    background-image: url('../image/email.png');   
+    background-repeat: no-repeat; 
+    background-position: 4px;        
+    padding-left: 24px;
+}
+.email input:nth-child(3){
+    background-image: url('../image/phone.png');   
+    background-repeat: no-repeat; 
+    background-position: 4px;        
+    padding-left: 20px;
 }
 /*main*/
 .circle{
@@ -134,7 +147,6 @@ a{
     flex-direction: column;
     align-items: center;
     height: 280px;
-    margin-left: 180px;
 }
 .laptop{
     background: #709dca;
@@ -208,20 +220,20 @@ a{
 .read p:first-child{
     font-size: 30px;
     font-weight: 800;
-    color: white;
+    color: #fff;
     position: relative;
     bottom: 25px;
 }
 .read p:nth-child(2){
     width: 508px;
     height: 137px;
-    color: white;
+    color: #fff;
     line-height: 1.7;
     font-size: 13px;
 }
 .read button{
     background-color: #ffc155;
-    color: white;
+    color: #fff;
     border: 1px solid #e7ad48;
     font-size: 14px;
     width: 145px;
@@ -230,7 +242,7 @@ a{
     top: 55px;
 }
 .read button:hover{
-    background-color:  white;
+    background-color:  #fff;
     color: #ffc155;
     border: 1px solid #e7ad48;
     transition: 0.3s ease;
@@ -261,7 +273,7 @@ a{
 .basic{
     height: 441px;
     width: 388px;
-    background-color: white;
+    background-color: #fff;
     border: 1px solid #ccd5df;
     display: flex;
     flex-direction: column;
@@ -313,13 +325,13 @@ a{
     height: 42px;
     width: 131px;
     border-radius: 2px;
-    color: white;
+    color: #fff;
     font-size: 14px;
     margin-top: 20px;
 }
 .basic button:hover{
-    background-color: white;
-    border: 1px solid white;
+    background-color: #fff;
+    border: 1px solid #fff;
     color: #ffbb42;
     transition: 0.3s ease;
 }
@@ -349,8 +361,8 @@ a{
     margin-top: 24px;
 }
 .premium button:hover{
-    background-color: white;
-    border: 1px solid white;
+    background-color: #fff;
+    border: 1px solid #fff;
     color: #ffbb42;
     transition: 0.3s ease;
 }
@@ -399,13 +411,13 @@ a{
     height: 42px;
     width: 131px;
     border-radius: 2px;
-    color: white;
+    color: #fff;
     font-size: 14px;
     margin-top: 20px;
 }
 .gold button:hover{
-    background-color: white;
-    border: 1px solid white;
+    background-color: #fff;
+    border: 1px solid #fff;
     color: #ffbb42;
     transition: 0.3s ease;
 }
@@ -561,17 +573,15 @@ margin-top: 65px;
     color: #394b50;
     margin-top: 3px;
 }
-.label input{
+.subscribe input{
     width: 308px;
     height: 47px;
     color: #cbcbcb;
     border: 1px solid #cbcbcb;
     margin-right: 10px;
+    outline: none; 
 }
-.label input:nth-child(2){
-    width: 387px;
-}  
-.label button{
+.subscribe button{
     width: 218px;
     height: 47px;
     color: #fff;
@@ -580,7 +590,7 @@ margin-top: 65px;
     background-color: #ffbb42;
     border: 1px solid #ffbb42;
 }
-.label button:hover{
+.subscribe button:hover{
     color: #ffbb42;
     background-color: #fff;
     border: 1px solid #fff;
@@ -591,8 +601,23 @@ margin-top: 65px;
     flex-direction: column;
     align-items: center;
 }
-.label{
+.subscribe{
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.subscribe input:first-child{
+    background-image: url('../image/name.png');   
+    background-repeat: no-repeat; 
+    background-position: 4px;        
+    padding-left: 20px;
+}
+.subscribe input:nth-child(2){
+    background-image: url('../image/email.png');   
+    background-repeat: no-repeat; 
+    background-position: 4px;        
+    padding-left: 24px;
+    width: 387px;
 }
 .dotter{
     width: 1102px;
@@ -613,7 +638,7 @@ margin-top: 65px;
     top: 40px;
 }
 .address{
-    background-image: url("../image/Shape 4.png");
+    background-image: url("../image/circle.png");
     background-repeat: no-repeat;
     background-position: center;
     width: 284px;

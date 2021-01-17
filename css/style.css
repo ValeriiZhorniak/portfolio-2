@@ -7,6 +7,10 @@
 *:after {
     box-sizing: border-box;
 }
+.conteiner{
+    max-width: 1700px;
+    margin: 0 auto;
+}
 
 .header{
     min-height: 93px;
@@ -204,7 +208,7 @@ a{
 }
 .box img{
     margin-right: 33px;
-    max-height: 65px;
+    max-height: 60px;
     width: auto;
 }
 .box-left{
@@ -214,7 +218,6 @@ a{
 .example{
     min-height: 623px;
     max-width: 100%;
-    
     background-color: #ffc155;
 }
 .about{
@@ -281,6 +284,7 @@ a{
     align-items: center;
     position: relative;
     top: 133px;
+    background-color: #e7edf3;
 }
 .basic{
     min-height: 441px;
@@ -291,10 +295,11 @@ a{
     flex-direction: column;
     align-items: center;
 }
-.line{
-    min-height: 1px;
+.point li:nth-child(odd):before{
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #e2e9f0;
     min-width: 329px;
-    background-color: #e2e9f0;
 }
 .price p:first-child{
     font-size: 30px;
@@ -322,14 +327,13 @@ a{
 .point li:nth-child(even){
    color: #caced3;
    font-size: 13.5px;
-   margin-top: 13px;
-   margin-bottom: 13px;
+   margin-top: 12px;
 }
 .point{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 27px;
+    margin-top: 17px;
 }
 .basic button{
     background-color: #ffbb42;
@@ -339,7 +343,7 @@ a{
     border-radius: 2px;
     color: #fff;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 27px;
 }
 .basic button:hover{
     background-color: #fff;
@@ -371,7 +375,7 @@ a{
     border-radius: 2px;
     color: white;
     font-size: 14px;
-    margin-top: 24px;
+    margin-top: 30px;
 }
 .premium button:hover{
     background-color: #fff;
@@ -426,7 +430,7 @@ a{
     border-radius: 2px;
     color: #fff;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 27px;
 }
 .gold button:hover{
     background-color: #fff;
@@ -458,7 +462,7 @@ a{
 .steps img{
     margin-top: 65px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 960px;
     height: auto;
 }
 .step{
@@ -741,23 +745,4 @@ a{
     justify-content: center;
     align-items: center;
 }
-/*footer
-@media screen and (max-width: 1200px) {
-    .main{
-        width: 1140px;
-    }
-}
-@media screen and (max-width: 1199px) {
-    .main{
-        width: 960px;
-    }
-}
-@media screen and (max-width: 991px) {
-    
-}
-@media screen and (max-width: 767px) {
-    
-}
-@media screen and (max-width: 575px) {
-    
-}*/
+/*footer*/

@@ -1,0 +1,56 @@
+@media (max-width: 1200px){
+    .conteiner{
+        max-width: 970px;
+    }
+    .navigation li{
+        margin-right: 20px;
+    }
+    .content input{
+        min-width: 22%;
+    }
+    .example{
+        min-height: 275px;
+    }
+    .about img{
+        max-width: 39%;
+    }
+    .read{
+        top: 10px;
+        padding-left: 40px;
+    }
+    .read button{
+        top: 15px;
+    }
+    .basic{ 
+        min-width: 65%;
+    }
+    .gold{
+        min-width: 65%;
+        margin-bottom: 30px;
+    }
+    .premium{
+        min-width: 65%;
+    }
+    .point li:nth-child(odd):before{
+        min-width: 300px;
+    }
+    .cont{
+        top: 60px;
+    }
+    .steps img{
+        max-width: 84%;
+    }
+    .mean:last-child{
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 992px){
+    .conteiner{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px){
+    .conteiner{
+        max-width: none;
+    }
+}

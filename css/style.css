@@ -29,6 +29,9 @@
     flex-wrap: wrap;
     box-sizing: content-box;
 }
+#toggle {
+    opacity: 0;
+}
 a{
     text-decoration: none;
     color: #868686;
@@ -745,3 +748,6 @@ a{
     align-items: center;
 }
 /*footer*/
+input:focus{
+    border-color: #1ca8dd;
+}

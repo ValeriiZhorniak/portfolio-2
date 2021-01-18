@@ -48,9 +48,121 @@
     .conteiner{
         max-width: 750px;
     }
+    .boxs{
+        margin-top: 40px;
+    }
+    .info{
+        top: 150px;
+    }
+    .about img{
+        display: none;
+    }
+    .read{
+        top: 30px;
+        padding-left: 18%;
+    }
+    .subscribe input:first-child, .subscribe input:nth-child(2){
+        min-width: 29%;
+    }
+    .logo{
+        display: none;
+    }
 }
 @media (max-width: 767px){
     .conteiner{
         max-width: none;
     }
+    .header{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .content{
+        min-height: 500px;
+    }
+    .email{
+        flex-wrap: wrap;
+    }
+    .content input{
+        min-width: 97%;
+    }
+    .request{
+        min-width: 97%;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .boxs{
+        flex-direction: column;
+    }
+    .box img{
+        display: none;
+    }
+    .box-left{
+        margin-right: 0;
+    }
+    .box-text{
+        text-align: center;
+    }
+    .titles p:nth-child(2){
+        text-align: center;
+    }
+    .service{
+        min-height: 1350px;
+    }
+    .example{
+        min-height: 400px;
+    }
+    .price p:first-child, .price p:nth-child(2){
+        text-align: center;
+    }
+    .steps p:nth-child(2){
+        text-align: center;
+    }
+    .steps img{
+        display: none;
+    }
+    .step{
+        flex-direction: column;
+    }
+    .step_num{
+        margin-top: 20px;
+    }
+    .steps button{
+        margin-top: 40px;
+    }
+    .people > p:nth-child(2){
+        text-align: center;
+    }
+    .people > p:first-child{
+        margin-top: 80px;
+    }
+    .review p:first-child::after, .review p:first-child::before{
+        display: none;
+    }
+    .mean{
+        flex-direction: column;
+    }
+    .map p:nth-child(2){
+        text-align: center;
+    }
+    .subscribe input, .subscribe button{
+        width: 97%;
+        margin-top: 10px;
+    }
+    .map p:first-child{
+        margin-top: 50px;
+    }
+    .link{
+        margin-top: 0px;
+    }
+    .link li{
+        margin-top: 10px;
+    }
+    .footer{
+        text-align: center;
+    }
+
+    
 }

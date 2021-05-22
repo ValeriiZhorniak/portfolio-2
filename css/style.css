@@ -751,3 +751,11 @@ a{
 input:focus{
     border-color: #1ca8dd;
 }
+.fab{
+    color: #709dca;
+    font-size: 17px;
+}
+.fab:hover{
+    color: #ffc155;
+    transition: 0.3s ease;
+}
